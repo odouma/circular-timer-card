@@ -1,6 +1,6 @@
-![GitHub Release](https://img.shields.io/github/v/release/karlis-vagalis/circular-timer-card)
-![downloads-latest](https://img.shields.io/github/downloads/karlis-vagalis/circular-timer-card/latest/total)
-![Downloads](https://img.shields.io/github/downloads/karlis-vagalis/circular-timer-card/total?color=blue&style=flat-square&logo=github)
+![GitHub Release](https://img.shields.io/github/v/release/odouma/circular-timer-card)
+![downloads-latest](https://img.shields.io/github/downloads/odouma/circular-timer-card/latest/total)
+![Downloads](https://img.shields.io/github/downloads/odouma/circular-timer-card/total?color=blue&style=flat-square&logo=github)
 
 [Home Assistant Community Forum](https://community.home-assistant.io/t/lovelace-circular-timer-card/614171)
 
@@ -16,7 +16,7 @@ This card is available in [HACS](https://hacs.xyz/) (Home Assistant Community St
 
 Use this link to directly go to the repository:
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=karlis-vagalis&repository=circular-timer-card)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=odouma&repository=circular-timer-card)
 
 ### Manually
 1. Download `circular-timer-card.js` from [latest release](https://github.com/karlis-vagalis/circular-timer-card/releases)
