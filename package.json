@@ -1,6 +1,6 @@
 {
 	"name": "circular-timer-card",
-	"version": "0.1.1",
+	"version": "0.1.0",
 	"description": "Circular timer card",
 	"type": "module",
 	"scripts": {
