@@ -11,6 +11,7 @@ class CircularTimerCard extends LitElement {
 		this._bins = 36;
 		this._padAngle = 1;
 		this._cornerRadius = 4;
+		this._CircleWith = 18;
 		this._defaultTimerFill = getComputedStyle(
 			document.documentElement,
 		).getPropertyValue("--primary-color");
@@ -101,6 +102,10 @@ class CircularTimerCard extends LitElement {
 			this._cornerRadius = config.corner_radius;
 		}
 
+		if (config.circle_with) {
+			this._CircleWith = config.circle_with;
+		}
+		
 		if (config.color) {
 			if (config.color.length === 1) {
 				this._gradientColors = [config.color[0], config.color[0]];
@@ -164,8 +169,8 @@ class CircularTimerCard extends LitElement {
 		);
 		this._arc = d3
 			.arc()
-			.innerRadius(30)
 			.outerRadius(48)
+			.innerRadius(48 - this._CircleWith)
 			.startAngle((d) => {
 				return this._toRadians(d.start);
 			})
