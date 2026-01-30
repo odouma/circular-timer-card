@@ -164,7 +164,7 @@ class CircularTimerCard extends LitElement {
 		);
 		this._arc = d3
 			.arc()
-			.innerRadius(30)
+			.innerRadius(40)
 			.outerRadius(48)
 			.startAngle((d) => {
 				return this._toRadians(d.start);
